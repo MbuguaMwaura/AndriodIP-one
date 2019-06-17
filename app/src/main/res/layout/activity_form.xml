@@ -19,6 +19,7 @@
         android:id="@+id/firstName"
         android:layout_marginTop="30dp"
         android:hint="first name"
+        android:singleLine="true"
         />
 
     <EditText
@@ -29,6 +30,7 @@
         android:id="@+id/lastName"
         android:layout_marginTop="10dp"
         android:hint="last name"
+        android:singleLine="true"
         />
 
     <EditText
@@ -39,6 +41,7 @@
         android:id="@+id/email"
         android:layout_marginTop="10dp"
         android:hint="email"
+        android:singleLine="true"
         />
 
     <Button
