@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.TestLooperManager;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -30,5 +31,13 @@ public class WelcomeActivity extends AppCompatActivity {
 
         mWelcome.setText("Hey there " + firstName + ", welcome to Life.Is.Freaking.Awesome. Click the button below and" +
                 " explore the amazing events you MUST attend!");
+
+        mEvents.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(WelcomeActivity.this, EventsActivity.class);
+                startActivity(intent1);
+            }
+        });
     }
 }
