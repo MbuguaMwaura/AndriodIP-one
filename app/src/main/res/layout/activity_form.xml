@@ -48,6 +48,7 @@
         android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
         android:text="sign in"
+        android:id="@+id/signIn"
         android:background="@drawable/roundedbutton"
         android:textColor="@color/white"
         />
