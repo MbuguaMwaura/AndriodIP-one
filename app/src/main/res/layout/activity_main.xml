@@ -25,6 +25,7 @@
         android:layout_below="@+id/maintitle"
         android:layout_centerHorizontal="true"
         android:text="proceed"
+        android:id="@+id/buttonProceed"
         android:textColor="@color/white"
         android:background="@drawable/roundedbutton"
         />
